@@ -77,3 +77,14 @@ eval $(/usr/bin/ssh-pageant -r -a "/tmp/.ssh-pageant-$USERNAME")
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# aliases for vagrant
+alias vu="vagrant up"
+alias vs="vagrant suspend"
+alias vr="vagrant resume"
+alias vssh="vagrant ssh"
+
+# alias for dir
+alias cdh="cd ~"
+alias cdd="cd /cygdrive/c/DEV"
+alias cdc="cd /cygdrive/c/DEV/code"
